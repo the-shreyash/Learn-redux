@@ -21,7 +21,7 @@ function App() {
           console.log("click")
       }}>increment</button>
       <button onClick={()=>{
-        dispatch(decrement( ))
+        dispatch(decrement())
       }}>decrement</button>
 
       <button onClick={()=>{
