@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import {fetchPhotos, fetchVideo} from './API/mediaApi'
-import { Search } from 'lucide-react'
+
 import SearchBar  from './components/SearchBar'
 import Tabs  from './components/Tabs'
-
+import ResultGrid from './components/ResultGrid'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +12,7 @@ function App() {
       <SearchBar/>
 
       <Tabs/>
+      <ResultGrid/>
   
     </div>
   )}

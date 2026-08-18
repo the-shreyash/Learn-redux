@@ -19,4 +19,4 @@ export async function fetchVideo(query, per_page= 1) {
   })
   return res.data     
   
-}
+} 
