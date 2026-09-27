@@ -1,8 +1,6 @@
-import React from 'react'
 import { useState } from 'react'
 import {useDispatch} from 'react-redux'
 import { setQuery } from '../redux/features/searchSlice'
-import  activeTab  from '../redux/features/searchSlice'
 const SearchBar = () => {
     const [text, settext] = useState('')
 
@@ -43,7 +41,6 @@ const SearchBar = () => {
 }
 
 export default SearchBar
-
 
 
 
